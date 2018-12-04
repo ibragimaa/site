@@ -1,0 +1,45 @@
+
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #f9f9fa;
+}
+main{
+    flex: 1 0 auto;
+}
+
+.container.profile{
+    margin-top: 15px;
+}
+
+navbar-fixed{
+    z-index: 1000;
+}
+nav{
+    background: #3498db;
+}
+
+.row{
+    display: inline;
+    vertical-align: middle;
+}
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+.footer{
+    background-color: azure;
+    padding-top: 30px;
+}
+
+h4{
+    font-size:  20px;
+}
+
+p{
+    font-size: 16px;
+}
+
+

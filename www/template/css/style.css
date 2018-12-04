@@ -1,0 +1,154 @@
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+main{
+    flex: 1 0 auto;
+}
+navbar-fixed{
+    z-index: 1000;
+}
+nav{
+    background: #1bbef4;
+}
+/*#3498db*/
+
+.form-header-text{
+    text-align: center;
+    font-size: 35px;
+    font-weight: bold;
+    color: #26a69a;
+}
+
+.full-container{
+    margin-top: -40px;
+}
+.parallax-container{
+    height: 350px;
+}
+.row{
+    padding-top: 30px;
+}
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+.main-image{
+    min-width: 100%;
+    height: 100vh;
+}
+.home-heading{
+    left: 0;
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    z-index: 100;
+    transform: translateY(-60%);
+    color: #FFF;
+}
+
+.heading{
+    font-weight: 800;
+}
+.row{
+    display: inline;
+    vertical-align: middle;
+}
+.home-card{
+    height: 300px;
+}
+.course-heading h4{
+    padding-top: 10px;
+    padding-bottom: 15px;
+}
+.footer{
+    background-color: azure;
+    padding-top: 30px;
+}
+
+h4{
+    font-size:  20px;
+}
+
+p{
+    font-size: 16px;
+}
+
+.home-card{
+    height: 300px;
+}
+
+.lesson-name{
+    margin-top: 30px;
+}
+
+.error-list{
+    margin-top: -35px;
+    margin-left: 10px;
+    text-align: left;
+    font-size: 14px;
+    color: #26a69a;
+    font-weight: bold;
+}
+
+.form-footer{
+    text-align: center;
+}
+
+span{
+    font-weight: 900;
+}
+@media only screen and (max-width: 960px) {
+    .main-image{
+        height: auto;
+    }
+    
+    h4{
+        font-size: 18px;
+    }
+    
+    h3{
+        font-size: 24px;
+    }
+    
+    .parallax-container{
+    height: 200px;
+    }
+}
+@media only screen and (max-width: 660px) {
+    .home-heading{
+        transform: translateY(-70%);
+    }
+    .parallax-container{
+        height: 200px;
+    }
+}
+@media only screen and (max-width: 460px) {
+    .home-heading{
+        transform: translateY(-220%);
+    }
+    .heading{
+        font-size: 30px;
+    }
+    .home-card{
+    height: 250px;
+}
+    .parallax-container{
+        height: 100px;
+    }
+}
+
+@media only screen and (max-width: 360px) {
+    .home-heading{
+        transform: translateY(-190%);
+    }
+}
+.container.register{
+    margin-top: 5vh;
+}
+
+.container.login{
+    margin-top: 10vh;
+}
